@@ -1,0 +1,5 @@
+Não está correto segundo o padrão ANSI C, embora com com alguns compiladores modernos ainda seja possível compilar. 
+
+1- Falta incluir as bibliotecas (stdio.h, e stdlib.h);
+2- Tipo de retorno da função main;
+3- Ausência do return;

@@ -1,0 +1,8 @@
+a - int a; [ Correto ] [ Declaração válida de uma variável inteira simples. int é um tipo básico da linguagem C e a é um identificador válido. ]
+b - float b; [ Correto ] [ 	Declaração válida de uma variável de ponto flutuante de precisão simples. float é um tipo básico reconhecido pela linguagem. ]
+c - double float c; [ Correto  ] [ Não é permitido combinar dois tipos base incompatíveis na mesma declaração. double e float são tipos distintos e mutuamente exclusivos — não existe o tipo composto "double float" em C. O correto seria apenas double c; ou float c;, escolhendo um dos dois tipos. ]
+d - unsigned char d; [ Correto ] [ unsigned é um modificador válido que pode ser aplicado a char, indicando que a variável armazenará apenas valores não-negativos (0 a 255, tipicamente). Combinação válida em C. ]
+e - unsigned e; [ Correto ] [Quando unsigned é usado sozinho, sem um tipo base explícito, o compilador assume implicitamente unsigned int. É uma forma abreviada válida e amplamente aceita pelo padrão C. ]
+f - long float f; [ Incorreto ] [ Embora long float fosse aceito informalmente em versões muito antigas do C (K&R, como sinônimo de double), essa combinação não é válida segundo o padrão ANSI C. O modificador long não pode ser combinado com float — ele só é válido com int (long int) ou com double (long double). O correto seria double f; ou long double f;. ]
+g - long g; [ Correto ] [ Assim como unsigned, quando long é usado sozinho, o compilador assume implicitamente long int. Forma válida e comum em C. ]
+h - long double h; [ Correto ] [ long double é um tipo válido em C, representando um ponto flutuante de precisão estendida (maior que double). Combinação reconhecida pelo padrão da linguagem. ]

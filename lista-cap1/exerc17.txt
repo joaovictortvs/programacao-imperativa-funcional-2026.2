@@ -1,0 +1,9 @@
+Corretas: a, b e c
+Incorreta: d
+
+Justificativa:
+
+a, b, c são válidas porque o compilador C ignora espaços em branco extras entre tokens (nome da função, parênteses, argumentos) — eles servem apenas para legibilidade humana.
+d está incorreta por faltar os parênteses () ao redor do argumento — toda chamada de função em C exige parênteses, independentemente do espaçamento.
+
+O que isso demonstra: C é uma linguagem free-form — espaços, tabulações e quebras de linha entre os tokens não afetam a compilação, desde que os elementos obrigatórios da sintaxe (parênteses, ;, {}) estejam presentes.
