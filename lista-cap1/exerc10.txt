@@ -1,3 +1,0 @@
-Letra B - Verdadeiro (a linguagem C diferencia rigorosamente letras maiúsculas de minúsculas). 
-
-O compilador em C trata as letras mesmo que sejam as mesmas, se estiverem caixa diferente (C ou c), como caracteres distintos.

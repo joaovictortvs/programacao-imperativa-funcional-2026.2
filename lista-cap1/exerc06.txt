@@ -1,7 +1,0 @@
-1- Faltam as bibliotecas (stdio.h, stdlib);
-2- main sem o tipo de retorno (int main);
-3- Apenas "a" foi declarado como int, b e c não;
-4- uso de : no lugar de ";" ;
-5- String do printf não fechada corretamente;
-6- variável d usada no printf mas nunca declarada;
-7- ausência do return 0;
